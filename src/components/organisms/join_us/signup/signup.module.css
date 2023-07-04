@@ -1,0 +1,86 @@
+.signup_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid green;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./../../../atoms/pics/about_page.jpg');
+    overflow-x: hidden;
+    
+}
+.form_content{
+    display: flex;
+    flex-direction: column;
+    gap:0.8rem;
+    /* border: 1px solid red; */
+    height: 80vh;
+    width: 27vw;
+    background-color: rgb(63, 3, 3);
+    color:rgba(231, 225, 225, 0.916);
+    border-radius: 1rem;
+    box-shadow: 3px 4px rgb(150, 146, 146);
+
+}
+
+.password_security{
+    -webkit-text-security:disc;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    height: 1.5rem;
+    outline: none;
+    border-radius: 5px;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    color:rgb(61, 152, 244);
+}
+.inputs_container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.input1{
+    text-align: center;
+    height: 1.5rem;
+    outline: none;
+    border-radius: 5px;
+}
+.input2{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    height: 1.5rem;
+    outline: none;
+    border-radius: 5px;
+}
+.select_container{
+    display: flex;
+}
+.copyright{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    margin-left: 1rem;
+}
+.already{
+    margin-left: 1.4rem;
+}
+.input2_btn{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    height: 1.5rem;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(17, 208, 225);
+    border: none;
+    color:rgb(246, 242, 242);
+}

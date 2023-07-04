@@ -1,0 +1,40 @@
+.middle_container{
+    /* border: 1px solid green; */
+    color:black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+.image_container{
+    margin-top: 1rem;
+    width: 16rem;
+    height: 20rem;
+    border-radius: 2rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    background-color: rgb(70, 2, 2);
+    color:rgb(215, 198, 198);
+}
+.thoughts{
+    width: 20rem;
+}
+.stars{
+    color:rgb(201, 201, 9);
+}
+.name{
+    color:white;
+    font-size: 1.3rem;
+}
+.prof{
+    color:rgb(159, 152, 152);
+    font-size: 1.5rem;
+}

@@ -1,0 +1,114 @@
+.third_section_container{
+    display: flex;
+    background-image: linear-gradient(to right, rgba(56, 2, 18, 0.861), rgb(16, 1, 5));
+    height: 80vh;
+}
+/* .third_section_container1{
+    display: flex;
+    background-image: linear-gradient(to right, rgba(56, 2, 18, 0.861), rgb(16, 1, 5));
+    height: 80vh;
+} */
+.explore{
+    background-image: linear-gradient(to right, rgba(56, 2, 18, 0.861), rgb(16, 1, 5));
+    color: rgba(255, 255, 255, 0.854);
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    
+    
+}
+.pics{
+    /* background-image: linear-gradient(to right, rgba(56, 2, 18, 0.861), rgb(16, 1, 5));  */
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    flex-grow: 2;
+    /* border: 1px solid; */
+    height: 30rem;
+    position: relative;
+}
+.explore_heading{
+    width: 20rem;
+}
+.explore_paragraph{
+    width: 30rem;
+}
+.outer_circle{
+    border: 1px solid red;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    position: absolute;
+}
+.middle_circle{
+    border: 1px solid red;
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+
+}
+.inner_circle{
+    border: 1px solid red;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+
+}
+.explore_inner{
+    /* border: 1px solid ; */
+    flex-grow: 3;
+    margin-left: 5rem;
+}
+.btn{
+    width: 7rem;
+    height: 2rem;
+    background-color: red;
+    color:white;
+    border: none;
+    border-radius: 5px;
+}
+.follows{
+    
+    display: flex;
+    gap:1rem
+}
+.heading_coaches{
+    margin-left: 1rem;
+}
+.images{
+    width: 11rem ;
+    height:18rem ;
+    border-radius: 40%;
+    z-index: 4;
+    /* border: 1px solid; */
+    /* margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-right: 8rem; */ 
+    margin-top: 4rem;
+    margin-right: 8rem;
+    box-shadow: 4px 1px red;
+    
+}
+.images1{
+    width: 11rem ;
+    height:18rem ;
+    border-radius: 40%;
+    z-index: 4;
+    margin-left: 10rem;
+    margin-top: -3rem;
+    box-shadow: 4px 1px red;
+    /* position: absolute; */
+    
+    
+    
+    
+}

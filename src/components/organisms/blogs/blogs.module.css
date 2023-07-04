@@ -1,0 +1,17 @@
+.blogs_container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.footers{
+    margin-top: 0.2rem;
+}
+.blogss{
+    margin-top: 7rem;
+}

@@ -1,0 +1,56 @@
+.about_first_container{
+    margin-top: 8rem;
+    display: flex;
+    gap:2rem;
+    background-color: rgb(23, 1, 8);
+    color: white;
+    height: 50vh;
+}
+
+
+
+
+.images{
+    display: flex;
+    /* flex-direction: column; */
+      /* border: 2px solid green; */
+   flex-grow: 3;
+}
+.img1{
+    width: 14rem;
+    height: 14rem;
+    transform: rotate(-12deg);
+    position: relative;
+    left: 3rem;
+    top:3rem;
+}
+.img2{
+    width: 14rem;
+    height: 14rem;
+    z-index: 2;
+   /* position: relative; */
+   /* bottom: 4rem; */
+   /* transform: rotate(-10deg); */
+}
+.heading4{
+    color:red;
+}
+.heading{
+    color:rgb(96, 93, 93);
+    word-spacing: 0.3rem;
+}
+.btn{
+    width: max-content;
+    border: none;
+    height: 1.3rem;
+    color:white;
+    background-color: red;
+    border-radius: 5px;
+    word-spacing: 0.3rem;
+}
+.para{
+    width: 40rem;
+}
+.description{
+    flex-grow: 2;
+}

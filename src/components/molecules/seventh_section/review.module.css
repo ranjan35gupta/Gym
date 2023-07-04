@@ -1,0 +1,107 @@
+.review_container{
+   /* border: 2px solid green;  */
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+   align-items: center;
+   justify-content: center;
+   margin-top: 2rem;
+}
+
+.review{
+    display: flex;
+    flex-direction: row;
+    /* overflow: scroll; */
+    gap:1rem;
+    width: 100vw;
+    /* border: 2px solid red; */
+}
+.images{
+    width: 10rem;
+    height: 10rem;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    
+    bottom: 27rem;
+}
+.inner_review{
+    width: 100vw;
+    /* height: 100vh; */
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    
+}
+.thoughts{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(23, 1, 8);
+    color:rgba(255, 255, 255, 0.813);
+    border-radius: 5rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    /* margin-bottom: 3rem; */
+    position: relative;
+}
+.description{
+    display: flex;
+    /* border: 1px solid white; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 4rem; */
+}
+.stars_section{
+   color: rgba(219, 219, 6, 0.9);
+   position: relative;
+   bottom: 1rem;
+}
+.links{
+    /* border:1px solid black; */
+    display: flex;
+    gap:1.3rem;
+    margin-top: 3rem;
+}
+.para{
+    /* border:1px solid white; */
+    width:60rem;
+    /* margin-top: rem; */
+}
+.btn{
+    width:4rem;
+    height: 2rem;
+    background-color: red;
+    color:white;
+    border: none;
+    border-radius: 0.3rem;
+     position: relative;
+     bottom: 1rem;
+}
+.heading_profession{
+    position: relative;
+    bottom:2rem ;
+
+}
+.anchor_links{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    /* text-align: center; */
+    /* margin: auto; */
+    background-color: white;
+    color:red;
+    border:1px solid red;
+    border-radius: 50%;
+}
+.heading2{
+    color:red;
+}
